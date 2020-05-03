@@ -2,7 +2,7 @@ from kafka import KafkaConsumer
 from json import loads
 
 broker_url = 'localhost:9092'
-topic_name = 'telemetry_1'
+topic_name = 'telemetry_csv_3'
 
 consumer = KafkaConsumer(topic_name,
     bootstrap_servers=broker_url,
